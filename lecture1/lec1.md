@@ -26,7 +26,7 @@
     - processe
     - result
 
-pic
+<img src="../image/lec1pic1.png">
 
 # Software Processes
     - is a set of interrelated activities and tasks that transform input work products into output work products
@@ -46,3 +46,6 @@ pic
  - Utilise design patterns and idioms
  - Document software design rationale using discourse conventions of discipline
  - Select a software architecture appropriate for a particular context
+
+ <img src="../image/lec1pic2.png">
+ <img src="../image/lec1pic3.png">
