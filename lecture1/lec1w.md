@@ -23,4 +23,28 @@
 
 - As Max. I want to invite my friends. so we can enjoy this service together
 - As Sascha, I want to organize my work, so I can feel more in control
-- As a manager, I want to be able to understande my colleagues progress, so I can better report our success and failures
+- As a manager, I want to be able to understande my colleagues progress, so I can better report our success and failures $$$ business value
+
+## bad example:
+    As a bank customer
+    I want online access to my account
+    So that I can see my balance 24/7 $$$ does not see any business value
+## better eg
+    As a bank customer
+    I can have frequent and convenient connectioon with my account and its activity
+    So that I can feel confident that I always know my financial position
+# How to write good User Stories
+- needs:
+    - When you write a user story, what you're describing is a "raw" user need
+    - It's something that the user needs to do in her day-to-day job
+    - Even if you never build any software for her, then that need will still exist
+    - With an agile appoarch Testers are involved to assist review of User Stories to ensure they are "reasonable/testable"
+        - Tester (vs developers) typically better represent real users.
+        - Tester think and act like users 
+            - while developers act like developers
+
+# Quality Attributes of User Stories
+- User stories are easy for users to read
+
+# The snow card
+<img src="../image/lec1pic4.png">
