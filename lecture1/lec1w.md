@@ -47,4 +47,19 @@
 - User stories are easy for users to read
 
 # The snow card
+- Snow card field can be continuously filled in.
+
 <img src="../image/lec1pic4.png">
+<img src="../image/lec1pic5.png">
+
+# Use cases
+- an abstraction that describes all possible scenarios involiving the described functionality focus is on completeness
+
+# productplan
+<img src="../image/lec1pic6.png">
+
+# Epic User Story
+<img src="../image/lec1pic7.png">
+
+# Powerslides
+<img src="../image/lec1pic8.png">
