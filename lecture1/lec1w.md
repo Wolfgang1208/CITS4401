@@ -63,3 +63,37 @@
 
 # Powerslides
 <img src="../image/lec1pic8.png">
+
+
+<img src="../image/lec1pic9.png">
+
+## 1
+- As a user
+- I want to 
+    - Track my daily exercise
+    - Eating habbits
+    - Set personalised fitness goals
+    - Track their progress
+    - Receive reminders and tips to stay motivated
+    - enhance gym experience
+- So that I can be healthy and fit
+
+## 2
+- As a user
+- I want to have a personalised dashboard 
+- So that I can be informed with my daily fitness goals, progress and tips
+
+## 3 
+- As a user 
+- I want to input my daily meals
+- So that I can track my calorie intake
+
+## 4
+- As a user
+- I want to link my smart wearables like Fitbits or Apple Watch
+- So that I can have more convenient way to check my statistics
+
+## 5
+- As a user
+- I want to get notifications
+- So that I can be reminded to complete my daily fitness routine
