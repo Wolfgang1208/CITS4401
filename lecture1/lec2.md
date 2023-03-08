@@ -31,7 +31,12 @@
 # Review Questions
 
 - Why do you think requirements change so much?
+
   - People may not have the main knowledges
   - They want the SW but they dont know the reality.
   - The idea is good and useful. But somehow against the local law.
     - so they want to change their requirements.
+  - under estimated the value of the SW
+
+- Requirements changes so much that it is difficult to predict in advance which software requirements **will persist and which will change**.
+- This is equally difficult to predict how **customer priorities** will change as the project proceeds.
