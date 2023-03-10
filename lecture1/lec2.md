@@ -111,3 +111,5 @@
 - Requirements change so much that it is difficult to predict in advance which software requirements **will persist and which will change**.
 - It is equally difficult to predict how customer priorities will change as the project proceeds
 - It is often difficult for people to **verbalize** their software needs **until they see a working prototype** and realize that they had forgotten to consider something important
+
+<img src="./image/../../image/lec2pic1.png">
