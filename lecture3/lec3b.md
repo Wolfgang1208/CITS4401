@@ -25,3 +25,14 @@
   - lms and record system
 - actors have unique names and descriptions
 - actors have goals that must be satisfied by the system
+
+# Scenarios vs use cases
+
+- scenarios
+  - an instance of a use case
+  - a sequence of steps describing an interaction between a user and system
+  - used to gather stories and build requirements
+  - focus is on understandability
+- Use case
+  - an abstraction that describes all possible scenarios involving the described functionality
+  - focus is on completeness
