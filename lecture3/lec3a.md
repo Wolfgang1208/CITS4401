@@ -9,25 +9,49 @@
 # Types of Requirements
 
 - Functional
+  - Describe the _functions_ that the SW is to perform.
+    - e.g. The SW shall enable a student to enroll in a class.
 - Non-functional
-- Performance
-- Maintainability
-- Interoperability
-- Useabaility
-- Safety
-- Reliability
-- Security
-- Privacy
+  - Requirements that contrain the solution
+  - e.g. Student addresses and other personal information should not be released to any unauthorized party.
 - Product
+  - a need or constraint on the software to be developed
+    - e.g. The SW shall verify that a student meets all prereqs before she registers for a course.
 - Process
+  - a requirement constraining the development of the SW
+    - e.g. The SW development team shall be cerified for ISO9001 quality standards.
 - Emergent
+  - requirements can not be addressed be a single component but depend on the interoperation of components
+    - e.g. a throughput requirement for a call-centre
+
+# Examples of Non-functional Requirements
+
+- Performance
+  - The SW will respond to client web activity in a timely and convenient way
+- Maintainability
+  - The SW will be implemented using modern programming practices that maximize the maintainability and resuability of designs and code.
+- Interoperability
+  - The SW shall run on XX phones and YY devices.
+- Useabaility
+  - The SW shall conform to ISO 9241 usability standard [ref]
+- Safety
+  - The SW will transition to an agreed safe state within 1 second of any sensor readings outside their thresholds.
+- Reliability
+  - The SW shall be available for use as much as comparable productivity tools.
+- Security
+  - The SW shall protect users' personal information from XXX penetration attacks.
+- Privacy
+  - The SW shall protect each user account with password entry.
 
 # More requirements classifications
 
 - Requirement Priority
-  - The higher the priority the more essential the requirement is for meeting the overall goal of the SW
+  - The higher the priority the more essential the requirement is meeting the overall goal of the SW. A fixed-point scale such as **Must have, Should have, Could have, and Won't have.**
 - Requirement Scope
+  - The extent to which a requirement affects the SW and components.
+    - e.g. Non-functional requirements such as response times have global scope: their satisfaction can not be allocated to a single component.
 - Requirement Volatility
+  - Some requirements will change druing the lifetime of the SW and even during development. It is useful to estimate the likelihood that a requirement will change so that developers can consider designs that are more tolerant of change.
 
 # Viewpoints of Requirements
 
