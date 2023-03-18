@@ -1,8 +1,10 @@
 # Requirement Analysis
 
 - What is
-  - Detect and resolve conflicts between requirements
-  - discover the bounds of the software
+- This topic is concerned with the process of analyzing requirements to
+  - **Detect and resolve conflicts** between requirements
+  - **Discover the bounds** of the software and how it must interact with its organizational and operational environment
+  - **Elaborate** system requirements to derive software requirements
 
 # Types of Requirements
 
@@ -93,6 +95,6 @@
 - techniques
 
 # Traceability tables
+
 - Uniquely number all requirements
 - Identify specific aspects of the system or its environment classified by
-
