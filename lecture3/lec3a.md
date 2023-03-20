@@ -56,10 +56,19 @@
 # Viewpoints of Requirements
 
 - interactor viewpoints
+  - people or other systems that interact directly with the system
+  - e.g. ATM customer, the bank's database
 - indirect viewpoints
+  - stakeholders who do not use the system, but influence requirements
+  - e.g. bank management and security people
 - domain viewpoints
+  - constraints of the domain that influence requirements
+  - e.g. standards for interbank communication
 
 # Putting this into Practice
+
+- Q: How do we capture all these potentially important properties of requirements?
+- A: Volere snow card prompts the user for relevant information
 
 <img src="../image/lec3pic1.png">
 
@@ -67,39 +76,78 @@
 
 # Conflict / Negotiation
 
-- Conflict resolution
+- Another term commonly used for the **Requirements Negotiation** subtopic is **Conflict Resolution**.
+- The both concern resolving problems with requirements where **conflicts** occur
+  - between two stakeholders requiring mutually incompatible features
+  - between requirements and resources
+  - between functional and non-functional requirements
+- In most cases, it is unwise for the software engineer to make a unilateral(单方面) decision
+- So it becomes necessary to consult with the stakeholders to reach a consensus on an appropriate tradeoff.
+- It is often important, for contractual reasons, that such decisions be traceable back to the customer
 
 # Detecting Conflicts
 
 # Use order of Priority
 
+- Determines the degree of importance of each requirements to the customer
+- There may not be enough time or resources to implement all requirements, so the most critical should be implemented first.
+- Helps to identify conflicting requirements
+- Identifying which requirements should be done first, and which should be left to successive releases, can help you plan successive releases of a product.
+
 # MoSCoW method
+
+- Must have, Should have, Could have, Won't have
+- We can ask the client to group their requirements of the system into two lists: the DO list and the NOT DO list
+- The MoSCoW rules have an advantage over the simple ranking method
+  - e.g. if there are many (1000) requirements then ranking using numbers from 1 to 1000 would be difficult, but grouping them into two lists using the MoSCoW rules would be a lot easier.
 
 # Formal Methods
 
 - Construct a mathematical model of the requirements
 - Use logical analysis to verify properties and identify inconsistencies
 - Most methods have tool support and some have automatic analysis
-- Popular models include 1st order logic, set theory, temporal logic, state machines
+- Popular models include 1st order logic, set theory (e.g. Z theory), temporal logic, state machines
 
 # Weaknesses
 
 - What are the weaknesses of these 3 strategies for large projects?
+- The requirements are not turly independent, yet all these strategies assume they are.
+- The client might not know their priorities
+- Different stakeholders do not usually agree with the priorities of the requirements.
 
 # Resolving conflicts
 
-# Why?
+# Why negotiation?
 
--
+- Negotiation is introduced to facilitate requirements elicitation and analysis
+  - Encourages communication
+  - Aids in understanding
+  - Reveal conflict, solution exploration, collaborative resolution
+  - Improve agreement level
+  - Develop stakeholders' satifaction
+  - Improves requirements quality
 
 # Negotiation for agile software development
+
+- Negotiation for traditional software methods focuses on revealing conflicts and improving understanding of requirements
+- As agile methods focus on **involvement of customer**, whose role is to provide and prioritize new system requirements, negotiation for agile software development should therefore focus on resolving these system requirements
+  - e.g.
+  - Can they be implemented within the time frame?
+  - Can they be implemented within the budget?
+  - Can these requirements be prioritized?
+- Agile methods have to reply on contract where customer pays for time spent on system development rather than the time on developing a specific set of requirements
+  - Negotiate on what to be delivered
+  - Software developer should be realistic on what they can deliver (i.e., do not over-promise just to get the contract signed)
 
 # Win-Win Spiral
 
 - Multi-stakeholder involvement with coordination and collaboration based on
-  - **Win conditions**
-  - **Conflict/Risk/Uncertainty specifications**
-  - **Points of Agreement**
+  1. **Win conditions**
+  - Capture the desired objectives of the individuals
+  2. **Conflict/Risk/Uncertainty specifications**
+  - Capture the conflicts between win conditions and their associated risks and uncertainties
+  3. **Points of Agreement**
+  - Capture the agreed upon set of conditions which satisfy stakeholder win conditions and also define the system objectives
 
 # Feasibility Studies
 
