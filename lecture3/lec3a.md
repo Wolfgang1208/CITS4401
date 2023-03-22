@@ -149,22 +149,57 @@
   3. **Points of Agreement**
   - Capture the agreed upon set of conditions which satisfy stakeholder win conditions and also define the system objectives
 
+# Win-Win Model
+
+1. identify next-level stakeholders
+2. identify their win conditions
+3. reconcile win conditions
+4. evaluate product and process alternatives, resolve risks
+5. define next level of product and process
+6. validate next level of product and process
+7. review & commitment -> return to 1
+
 # Feasibility Studies
 
 - INPUT
-  - set of preliminary business requirements
+  - set of preliminary(初步的) business requirements
   - an outline description of the system
   - how the system is intended to support business processes
 - OUTPUT
   - a report recommending whether or not it is worth carrying on with the requirements engineering and system development process
+
+# Question for the feasiblity studies
+
+- Dose the system contribute to the overall objectives of the organisation?
+- Can the system be implemented using current technology and within given cost and schedule constraints?
+- Can the system be integrated with other systems already in place?
+- How would the organisation cope(应对) if this system were not implemented?
+- What are the problems with current processes?
+- How would the new system alleviate these problems?
+- Does the system require technology that has not previously been used in the organisation?
+- What must be supported by the system? What need not be supported by the system?
 
 # Requirements Evolution
 
 # Issues
 
 - issues
+  - requirements inevitably change, but why and to what effect?
 - definitions
+  - a classification of requirements according to the types of change which may occur
 - techniques
+  - Software Configuration Management, traceability tables, good record keeping, metrics
+
+# Reasons for requirements change
+
+- User gains better understanding of the requirements from the requirements elicitation, analysis and validation process
+- New ways of working result from the introduction of the software system itself
+- Changes to the environment of the organisation
+- Changes to systems or processes within an organisation
+- Development is a discobery process
+
+# Consequences of requirements change
+- 
 
 # Traceability tables
 
