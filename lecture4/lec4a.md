@@ -58,20 +58,36 @@
   - Average number of errors made by users in a given time period
   - Number of help frames
   - e.g. Users who have completed the system tutorial should be able to complete the PlanTrip use case within 2 minutes
+  - Test: Run a training session (or provide online tutorial) for a group of users. Give them a test at the end of the session and measure the time it takes them to complete tasks (in this case, the PlanTrip use case)
 - Portability
   - Percentage of target-dependent statements
   - Number of target systems
   - e.g. Tha app shall run on all Android phones models since 2015 for all operating system versions from 7 onwards.
+  - Test: Collect a test set of devices (or simulations) and also a set of app tests with a pass criteria. Run each of the app tests on each of the required app/op sys combinations.
 
 # Hard-to-test requirements
 
 - System requirements
-  - requirements which apply to system as a whole
-  - In general, these are the most difficult requirements to validate irrespective of the method used as they may be influenced by any of the functional requirements
-  - Hard to test for non-functional system-wide characteristices such as usability
+  - Requirements which apply to system as a whole.
+  - In general, these are the most difficult requirements to validate irrespective of the method used as they may be influenced by any of the functional requirements.
+  - Hard to test for non-functional system-wide characteristices such as usability.
 - Exclusive requirements
-  - Requirements which exclude specific behaviour
-  - For example, a requirement may state that system failures must never corrupt the system databse
-  - It is not possible to test such a requirement exhaustively
+  - Requirements which exclude specific behaviour.
+  - For example, a requirement may state that system failures must never corrupt the system databse.
+  - It is not possible to test such a requirement exhaustively.
 - Some non-functional requirements
   - Some non-functional requirements, such as reliability requirements, can only be tested with a large test set.
+  - Designing this test set does not help with requirements validation.
+  - But the tests are still necessary for system delivery and for test during development.
+
+# If you can't make a test?
+
+- We can use **test cases**, **analysis** or **inspection** to decide _if a requirement is has been satisfied_.
+
+# Summary
+
+- Each requirement should have a test to determine whether it has been satisfied (or not)
+- Non-functional requirements can be hard to test objectively
+- Requirements tests can be a form of contract for delivery
+- Thinking of ways to test your requirements and test them is hard. You need to practice that skill
+- Requirements can also be tested by analysis or inspection

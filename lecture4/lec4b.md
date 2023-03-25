@@ -8,7 +8,7 @@
 
 # Why prototype?
 
-- Prototyping is commonly a means for validating the software engineer's interpretation of the software requirements, as well as for eliciting new requirements
+- Prototyping is commonly a means for validating the software engineer's interpretation of the software requirements, as well as for **eliciting** new requirements
 - The advantage of prototype is that they can make it easier to interpret the software engineer's assumptions and, where needed, give useful feedback on why they are wrong.
 - For example, the dynamic behaviour of a user interface can be better understood through an animated prototype than through textual description or graphical models.
 
