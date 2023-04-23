@@ -1,11 +1,16 @@
 # Part2 Managing requirements
 
+# Key ideas
+
+- Managing requirements
+  - Maintain me
+
 # Requirements: Analysis vs Validation
 
 - **Analysis** works with raw requirements as elicited from the system stakeholders
-  - "Have we got the right requirements" is the key question to be answered at this stage
+  - **"Have we got the right requirements"** is the key question to be answered at this stage
 - **Validation** works with a final draft of the requirements document i.e. with negotiated and agreed requirements
-  - "Have we got the requirements right" is the key question to be answered at this stage
+  - **"Have we got the requirements right"** is the key question to be answered at this stage
 
 # Validation inputs
 
@@ -71,3 +76,9 @@
 8. Does the specification contain solutions posturing as requirements?
 9. Is the stakeholder value defined for each requirements?
 10. Is each requirement uniquely idenrifiable?
+
+# Summary
+
+- **Requirememts validation** should focus on checking the final draft of the requirements document for conflicts, omissions and deviations from standards
+- **Reviews** involve a group of people making a detailed analysis of the requirements
+- **Checklists** can support validation tasks
