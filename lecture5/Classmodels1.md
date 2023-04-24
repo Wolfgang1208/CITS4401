@@ -101,3 +101,24 @@
   - Mandatory implies a lower bound of 1 or possibly more
   - Single-valued implies an upper bound of 1
   - Multivalued implies an upper bound of more that 1: usually \*
+
+# Practice
+
+# Attributes
+
+- Properties represent structual features of a class. As a first approximation, you can think of properties as corresponding to fields in a class
+- The attribute notation describes a property as a line of text within the class box itself
+- Properties are a single concept, but they appear in two quite distinct notations: attributes and associations
+- Although they look quite different on a diagram, they are really the same thing
+
+# Attribute or Associations
+
+<img src="../image/lec6pic8.png">
+
+# Which to use?
+
+- With two notations for the same thing, the obvious question is
+- Why should you use one or the other?
+- In general:
+  - **Attribute** for small things,
+    - such as dates or Booleans - in general, value
