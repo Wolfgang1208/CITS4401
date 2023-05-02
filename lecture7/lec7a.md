@@ -111,3 +111,38 @@ table
   - It is almost always a waste of effort
 - Use state diagrams only for those classes that exhibit interesting behavior, where building the state diagram helps you understand what is going on
 - Many people find that User Interface and Control objects have the kind of behavior that is useful to depict with a state diagram
+
+# Review (1): Requirements Analysis
+
+1. What are the transformations?
+   - Create scenarios and use case diagrams
+     - Talk to client, observe, get historical records, do thought experiments
+2. What is the structure of the system?
+   - Create object and class diagrams
+     - Identify objects. What are the associations between them? What is their multiplicity?
+     - What are the attributes of the objects?
+     - What operations are defined on the objects?
+
+# Review (2): Requirements Analysis
+
+3. What is its control structure?
+   - Create state diagrams
+     - Only fo the dynamically interesing objects
+   - Create sequence diagrams
+     - Identify senders and receivers of events
+     - Show sequence of events exchanged between objects. Identify event dependencies and event concurrency
+
+# When is a model dominant?
+
+- Functional model
+  - The model performs complicated tranformations such as difficult computations consisting of many steps
+- Object model
+  - The system has non-trivial data structures
+- Dynamic model
+  - The model has many different types of events: Input, output, exceptions, errors, etc
+
+# when to use: E.g.
+
+- Complier: Functional model most important. Dynamic model is trivial because there is only one type input and only a few outputs
+- Database systems: Object model most important. Functional model is trivial, because their purpose is usually only to store, organize and retrieve data
+- Spreadsheet program: Functional model most important. Object model is trival, because the spreadsheet values are trival and cannot be structured further. The only interesting object is the cell. Dynamic model is also relatively important
